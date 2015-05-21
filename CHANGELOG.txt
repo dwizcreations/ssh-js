@@ -1,3 +1,7 @@
+SSH_0.1-1	DP	2015-05-21
+
+			initial commit of CHANGELOG.txt
+
 SSH_0.1-0	DP	2015-05-21
 			
 			Initial Commit of following pages
