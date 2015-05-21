@@ -1,0 +1,9 @@
+SSH_0.1-0	DP	2015-05-21
+			
+			Initial Commit of following pages
+			/index.html: Main page
+			/js/jquery.js: Jquery
+			/js/core.js: Core javascript code
+			/js/db.js: simple js file to hold data in arrays
+			/css/styles.css: primary css file
+		
