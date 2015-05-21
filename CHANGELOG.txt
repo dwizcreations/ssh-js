@@ -1,12 +1,11 @@
-<<<<<<< HEAD
+
 SSH_0.1-2	SS	2015-05-21
 			
 			initial commit of FEATURES.txt
-=======
+
 SSH_0.1-1	DP	2015-05-21
 
 			initial commit of CHANGELOG.txt
->>>>>>> origin/master
 
 SSH_0.1-0	DP	2015-05-21
 			
@@ -16,4 +15,3 @@ SSH_0.1-0	DP	2015-05-21
 			/js/core.js: Core javascript code
 			/js/db.js: simple js file to hold data in arrays
 			/css/styles.css: primary css file
-		
