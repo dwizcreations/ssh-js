@@ -1,3 +1,9 @@
+SSH_0.1-3	SS	2015-05-22
+
+			filled FEATURES.txt with design ideas RE the spaceship.
+			replaced the following files with ones I had updated previously
+			/js/core.js
+			/js/db.js
 
 SSH_0.1-2	SS	2015-05-21
 			

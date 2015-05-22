@@ -74,15 +74,19 @@ var spaceSSH = {
 			
 	checkText : function()
 	{
-      var text = spaceSSH.highlightKeyWords( spaceSSH.INPUT.val() );	
+		if (spaceSSH.INPUT.val().length < 1) {}
+		
+		else {
+			var text = spaceSSH.highlightKeyWords( spaceSSH.INPUT.val() );	
       
-      var newLine = "<p>&nbsp;>&nbsp;"+text+"</p>";
+			var newLine = "<p>&nbsp;>&nbsp;"+text+"</p>";
     	  
-      $( newLine ).appendTo( spaceSSH.SCREEN );
+			$( newLine ).appendTo( spaceSSH.SCREEN );
       
-      spaceSSH.updateScroll();
+			spaceSSH.updateScroll();
       
-      spaceSSH.INPUT.val("");
+			spaceSSH.INPUT.val("");
+		};
 	},
 
 	updateScroll : function()

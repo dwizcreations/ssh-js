@@ -1,0 +1,80 @@
+Planned features, ideas & to-do
+
+----
+FILE SYSTEM
+
+	This is just a rough idea, I'm thinking something along the lines of:
+	
+		Admin folder containing:
+			systems info (eg check how much ammo a turret has).
+			usershares and mail.
+			
+		Backup & emergency config:
+			manually override automatic subsystems(eg CCTV, doors, oxygen supply).
+			backup power.
+			self-destruct.exe.
+			
+		Tools:
+			systems config (eg deactivate shields) in the form of executable scripts.
+			help & information about the system.
+
+----
+This one is more of a design splurge I just had:
+
+SPACESHIP LAYOUT
+
+	Needs designing before the game can take direction. I'm thinking a small-med sized ship
+	with 2-3 floors and just enough gear to support and defend itself, nothing too extravagant.
+	
+		List of systems & subsystems.
+			
+			SYSTEMS
+				helm
+				nav
+				comms
+				weapons
+				shields
+				engines (& thrusters)
+				power core
+				
+			SUBSYSTEMS (mostly things that run automatically)
+				power distribution system & backup power supply
+				CCTV
+				lights
+				doors
+				air conditioning - oxygen supply, humidity, temp, circulation
+				gravity/magnetic system (or whatever we decide makes feet stick to floors)
+				main computer - ship's OS, file system, access terminal network
+	
+		Here's a quick throw up of the rooms in the ship:
+		
+			BRIDGE contains:
+				captain's chair (captain)
+				helm (pilot)
+				nav panel (nav)
+				comms panel (comms)
+				weapons panel (shooter)
+				systems panel (someone who really knows what they're doing balancing power)
+		
+			ENGINE ROOM - maintenance hatches from here lead to the exterior at the thrusters.
+			CARGO HOLD - containing transport cargo as well as crew supply storage.
+			POWER CORE - giant, bright thing that powers the ship.
+			SHIELD & SUBSYSTEM CONTROL CENTRE - direct shield maintenance access & controls. also backup power & subsystems control panel.
+			WEAPON MAINTENANCE - the backend of the weapons. for maintenance & ammo loading.
+			MESS HALL / KITCHEN - not really important to the game.
+			CREW PRIVATE QUARTERS - or that.
+			
+		Here's a quick idea of the crew I threw together:
+	
+		bridge			6 crew:	1 captain, 1 pilot, 1 nav(shooter backup), 1 dedicated shooter, 1 systems(shooter backup), 1 comms(shooter backup).
+		weapons bay		2 crew:	2 weapon maintenance/loaders.
+		shields & subsystems	1 crew:	1 shield & subsystems person (who can also do engines and cargo).
+		engines & cargo		1 crew:	1 engines & cargo dogsbody (who can also vice versa ^).
+		IT			1 crew:	1 dedicated IT goon.
+		extra			5 crew:	2 Housekeeping Oddjob Androids (this could be fun! maybe hack them and make them run scripts that control them?)
+					& 1 Dami. Dedicated perv. Can do anything except be in the bridge (risk of fire).
+					oh, and 2 chefs.
+
+		total 16 crew (14 live).
+		
+----
